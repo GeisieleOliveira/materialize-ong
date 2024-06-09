@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Servicos.css">
+    <title>ONG</title>
+</head>
+<body>
+    <header>
+
+    <nav class="nav purple lighten-1">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        
+        <div class="nav-wrapper container ">
+            
+            <div class="brand-logo light" style="font-size:20px" id="logo">União das Patas</div>
+            
+            <ul class="right hide-on-med-and-down"> 
+                <li><a href="index.html" class="link-home">Home</a></li>
+                <li><a href="servicos.html" class="link-servicos">Serviços</a></li>
+                <li><a href="contatos.html" class="link-contatos">Contatos</a></li>
+            </ul>
+           
+            <ul id="slide-out" class="sidenav">
+                <li id="homeH"><a href="index.html" class="link-home"><i class="material-icons left purple-text">home</i>Home</a></li>
+                <li id="servicosH"><a href="servicos.html" class="link-servicos"><i class="material-icons left purple-text">people</i>Serviços</a></li>
+                <li id="contatosH"><a href="contatos.html" class="link-contatos"><i class="material-icons left purple-text">phone</i>Contatos</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+                        <img src="imagens/servicos4.png" alt="" class="responsive-img" id="dog">
+
+
+                        <div id="divS">
+                            <p class="paragS">Os serviços fornecidos por nossa equipe dedicada e especializada incluem:
+                            <br>Em caso de dúvidas, é possível entrar em contato com nossa equipe pelo <a href="contatos.html">Fale Conosco</a>.
+                            </p>
+                        </div>
+            <div class="row" id="divCollapsible">            
+                <div class="col s12 m8 offset-m2 l10 offset-l1">
+                    <ul class="collapsible">
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">local_hospital</i>Atendimento Veterinário<i class="material-icons right-icon">keyboard_arrow_right</i></div>
+                            <div class="collapsible-body"><span>Na nossa ONG, oferecemos atendimento veterinário de qualidade, fornecido por profissionais altamente qualificados e dedicados.Se o seu animal precisar de cuidados veterinários, não hesite em entrar em contato conosco. <br>Estamos aqui para ajudar.</span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">emergency</i>Resgate de Animais<i class="material-icons right-icon">keyboard_arrow_right</i></div>
+                            <div class="collapsible-body"><span>Realizamos resgate de animais em situações de emergência e perigo. Se você encontrar um animal em apuros, não hesite em nos informar. Nossa equipe está pronta para agir e resgatar animais feridos, perdidos ou em perigo. <br>Use o formulário abaixo para nos fornecer informações detalhadas sobre o local e a situação do animal, para que possamos agir rapidamente e salvar vidas.</span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">house</i>Abrigo de Animais<i class="material-icons right-icon">keyboard_arrow_right</i></div>
+                            <div class="collapsible-body"><span>Nosso abrigo oferece um lar seguro e acolhedor para animais abandonados e em situação de rua. Aqui, eles recebem cuidados, amor e proteção enquanto aguardam por um lar amoroso e permanente.<br>Se você encontrar um animal em situação de abandono, por favor, entre em contato conosco. Estamos aqui para oferecer um refúgio seguro e cuidados necessários.</span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">bathtub</i>Cuidados e Higiene<i class="material-icons right-icon">keyboard_arrow_right</i></div>
+                            <div class="collapsible-body"><span>Na nossa ONG, priorizamos a higiene e o bem-estar dos animais. Contamos com profissionais qualificados en dedicados que trabalham incansavelmente para manter nossas instalações limpas e livres de bactérias.<br>Nosso objetivo é proporcionar um ambiente seguro e saudável para todos os animais sob nossa proteção, garantindo que eles recebam os cuidados e a higiene necessários para uma vida feliz e saudável.</span></div>
+                        </li>
+                        <li>
+                            <div class="collapsible-header"><i class="material-icons">security</i>Proteção de Dados e Privacidade<i class="material-icons right-icon">keyboard_arrow_right</i></div>
+                            <div class="collapsible-body"><span>Valorizamos a privacidade e a segurança dos dados de nossos doadores, voluntários e clientes. <br>A ONG União das Patas atua para garantir o compliance com a Lei Geral de Proteção de Dados Pessoais(LGPD), Lei n. 13.709/2018.
+                            Isso significa o gerenciamento responsável e seguro de dados pessoais de todos que consentirem em fornecer informações à União das Patas.
+                            </span></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+                <h5 class="h5forms">Precisa de Ajuda?</h5>
+                <div class="row" id="forms">
+                    <form action="https://formsubmit.co/geisieleoliveirasouza069@gmail.com" method="POST" id="meuFormulario" autocomplete="off" class="col s12 m8 offset-m2 l10 offset-l1">
+                        <input type="text" name="Nome" placeholder="Digite seu nome completo:" class="validate" autocomplete="off" required>
+
+                        <input type="email" name="Email" placeholder="Digite seu e-mail:" class="validate" autocomplete="off" required>
+
+                        <input type="text" name="Telefone" placeholder="Digite o seu telefone:"  id="phone" class="validate" autocomplete="off" required>
+
+                        <input type="text" name="Estado" placeholder="Digite o estado:" class="validate" id="estado" autocomplete="off" required>
+
+                        <input type="text" name="Cidade" placeholder="Digite a cidade:" class="validate" id="cidade" autocomplete="off" required>
+
+                        <textarea cols="30" rows="20" name="Ponto de Referência" placeholder="Digite o ponto de referência:" class="validate" autocomplete="off" required></textarea>
+
+                        <textarea cols="30" rows="20" name="Condição do Animal" placeholder="Condição do Animal:" class="validate" autocomplete="off" required></textarea>
+                        <button class="buttonforms" type="submit">ENVIAR</button>
+                    
+                        <input type="hidden" name="_subject" value="Novo Contato">
+                        <input type="text" name="_honey" style="display:none">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_next" value="http://127.0.0.1:5500/Materialize-ONG/servicos.html">
+                    
+                    </form>
+                </div>
+
+                <footer class="footer">
+                    <h5 class="h5footer">Contato</h5>
+                    <p class="pfooter">Avenida das Flores Douradas, 730
+                        <br>Jardim dos Franceses
+                        <br>São José dos Campos
+                    </p>
+                    <ul class="listfooter">
+                        <li><button class="buttonf">Ver mapa</button></li>
+                        <li><h6 class="numberf">99 99999-9999</h6></li>
+                    </ul>
+                    <ul class="listicons">
+                        <i class="material-icons">email</i>
+                        <i class="material-icons">facebook</i>
+                        <i class="material-icons">help</i>
+                    </ul>
+                    <ul class="listwords">
+                        <p>Fale Conosco</p>
+                        <p>Facebook</p>
+                        <p>Dúvidas</p>
+                    </ul>
+                    
+                    <div class="linha"></div>
+                    <p><a href="servicos.html" class="links">Serviços</a></p>
+                    <p><a href="voluntarios.html" class="links">Voluntários</a></p>
+                    <p><a href="contatos.html" class="links">Contato</a></p>
+                    
+                    <div class="final">
+                        <p class="titulo">UNIÃO DAS PATAS</p>
+                        <p class="text-final">Organização Não Governamental (ONG) dedicada ao resgate, cuidado e reabilitação de animais abandonados e feridos.</p>
+                    </div>
+                </footer>
+
+
+
+                <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+                <script src="scriptforms.js"></script>
+              
+</body>
+</html>

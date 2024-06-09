@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="estilo.css">
+    <title>ONG</title> 
+</head>
+<body>
+    <header>
+    <nav class="nav purple lighten-1">
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        
+        <div class="nav-wrapper container ">
+            <!--Logo-->
+            <div class="brand-logo light" style="font-size:20px" id="logo">União das Patas</div>
+            <!--Menu Desktop  ul.>li*3>a-->
+            <ul class="right hide-on-med-and-down"> <!--esconder de dispositivos medios e abaixo deles-->
+                <li><a href="index.html" class="link-home">Home</a></li>
+                <li><a href="servicos.html" class="link-servicos">Serviços</a></li>
+                <li><a href="contatos.html" class="link-contatos">Contatos</a></li>
+            </ul>
+            
+            <!--Menu Mobile-->
+            <ul id="slide-out" class="sidenav">
+                <li id="homeH"><a href="index.html" class="link-home"><i class="material-icons left purple-text">home</i>Home</a></li>
+                <li id="servicosH"><a href="servicos.html" class="link-servicos"><i class="material-icons left purple-text">people</i>Serviços</a></li>
+                <li id="contatosH"><a href="contatos.html" class="link-contatos"><i class="material-icons left purple-text">phone</i>Contatos</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+    <section id="homeS" class="section active">
+        <div class="slider col s12">
+            <ul class="slides">
+                <li>
+                    <img src="imagens/animals-2939715_1920.jpg" alt="" class="responsive-img">
+                    
+                    <div class="caption right-align">
+                        <h1>Cuidado</h1>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/pets-3715733_1920.jpg" alt="" class="responsive-img">
+                    
+                    <div class="caption left-align">
+                        <h1>Amor</h1>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/animals-2939756_1920.jpg" alt="" class="responsive-img">
+                    
+                    <div class="caption right-align">
+                        <h1>Proteção</h1>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/action-5067305_1920.jpg" alt="" class="responsive-img">
+                    
+                    <div class="caption left-align">
+                        <h1>Confiança</h1>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/animals-2939754_1920.jpg" alt="" class="responsive-img">
+                    
+                    <div class="caption right-align">
+                        <h1>Amparo</h1>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="row hide-on-med-and-up">
+            <h3 class="center-align" id="quemSomos">QUEM SOMOS?</h3>
+                <div class="homeC">
+                    <div class="paragHome1">
+                        <p class="center-align responsive" id="pHome1">Fundada em 1981, o Paraíso dos Patinhas é uma ONG comprometida em auxiliar milhares de animais abandonados e feridos. Nossa missão é proporcionar cuidados essenciais para esses animais enquanto aguardam por um novo lar amoroso.
+                        </p>
+                    </div><br>
+                
+                    <br><div class="center-align"><button class="btn waves-effect waves-light" onclick="redirecionar()"> Saiba Mais
+                        <i class="material-icons right">chevron_right</i>
+                      </button></div>
+                </div>
+        </div>
+
+        <div class="row hide-on-small-only" id="listQSH">
+            <h3 class="center-align" id="quemSomos">QUEM SOMOS?</h3>
+            <ul class="listQS1">
+                <li>
+                    <div class="homeC">
+                        <div class="paragHome">
+                            <p class="responsive" id="pHome">Fundada em 1981, a União das Patas é uma ONG comprometida em auxiliar milhares de animais abandonados e feridos. Nossa missão é proporcionar cuidados essenciais para esses animais enquanto aguardam por um novo lar amoroso.
+                            </p>
+                            <br><div class="left-align"><button class="btn waves-effect waves-light" onclick="redirecionar()"> Saiba Mais
+                                <i class="material-icons right">chevron_right</i>
+                              </button></div>
+                        </div><br>
+                </li>
+                <li>
+                    <img src="imagens/veterinary-85925_640 (1).jpg" class="responsive-img" id="imgQS1" alt="">
+                </li>
+                
+                    
+                </div>
+            </ul>
+        </div>
+
+        <div class="row hide-on-med-and-up" id="smallScreen">
+            <div class="listimg1">
+                <img src="imagens/medicine-5003631_640.jpg" alt="" class="responsive-img" id="img1">
+                <div class="divimg1">
+                    <h6>Cuidado</h6>
+                    <p>Cuidado que transforma vidas.</p>
+                </div>
+            </div>
+                <br>
+                <div class="listimg2">
+                        <div class="divimg2">
+                            <h6>Cuidado</h6>
+                            <p>Cuidado que transforma vidas.</p>
+                        </div>
+                 
+                        <img src="imagens/dachshund-1519374_640.jpg" alt="" class="responsive-img" id="img22">
+                
+                </div><br>
+
+                <div class="listimg3">
+                    <img src="imagens/dog-2561134_640.jpg" alt="" class="responsive-img" id="img3">
+                    <div class="divimg3">
+                        <h6>Cuidado</h6>
+                        <p>Cuidado que transforma vidas.</p>
+                    </div>
+                </div>
+                <br>
+                <div class="listimg4">
+                    <img src="imagens/dalmatian-1020790_640.jpg" alt="" class="responsive-img" id="img4">
+                    <div class="divimg4">
+                        <h6>Cuidado</h6>
+                        <p>Cuidado que transforma vidas.</p>
+                    </div>
+                </div>
+        </div>
+
+        <div class="row hide-on-small-only" id="largeScreen">
+            <ul class="listLarge">
+                <li>
+                    <img src="imagens/medicine-5003631_640.jpg" alt="" class="responsive-img" id="img11">
+                    <div class="divimg11">
+                        <h6>Cuidado</h6>
+                        <p>Cuidado que transforma vidas.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/dachshund-1519374_640.jpg" alt="" class="responsive-img" id="img222">
+                    <div class="divimg22">
+                        <h6>Cuidado</h6>
+                        <p>Cuidado que transforma vidas.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/dog-2561134_640.jpg" alt="" class="responsive-img" id="img33">
+                    <div class="divimg33">
+                        <h6>Cuidado</h6>
+                        <p>Cuidado que transforma vidas.</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="imagens/dalmatian-1020790_640.jpg" alt="" class="responsive-img" id="img44">
+                    <div class="divimg44">
+                        <h6>Cuidado</h6>
+                        <p>Cuidado que transforma vidas.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+
+
+
+        
+        <div class="row hide-on-med-and-up" id="FDOO1">
+            <div class=" center-align " id="textFDO">
+                <h3 class="h3FDO">Fique <br>de olho!</h3>
+                <ul class="listHomeVF">
+                    <a href="voluntarios.html">
+                        <div id="FDO">
+                            <ul class="center-align" id="list">
+                                <li>
+                                    <p class="pFDO">ESTAMOS CONTRATANDO</p>
+                                </li>
+                                <li>
+                                    <div class="circle-icon">
+                                        <ul class="lista">
+                                            <li>
+                                                <h5 class="h5FDO">VOLUNTÁRIOS</h5>
+                                            </li>
+                                            <li>
+                                                <i class="material-icons white-text" id="circle">arrow_forward</i></li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </a>
+                                <a href="contatos.html">
+                                    <div id="FDO2">
+                                        <ul class="center-align" id="list2">
+                                            <li>
+                                                <p class="pFDO2">DÚVIDAS ?</p>
+                                            </li>
+                                            <li>
+                                                <div class="circle-icon2">
+                                                    <ul class="lista2">
+                                                        <li>
+                                                            <h5 class="h5FDO2">FALE CONOSCO</h5>
+                                                        </li>
+                                                        <li>
+                                                            <i class="material-icons white-text" id="circle2">arrow_forward</i>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </a>
+                            </ul>
+                    </div>          
+                </div>
+
+                <div class="row hide-on-small-only" id="FDOO2">
+                    <div class=" center-align " id="textFDO">
+                        <ul class="listHomeVF2">
+                            <h4 class="h3FDO">Fique <br>de olho!</h4>
+                            <a href="voluntarios.html">
+                                <div id="FDO">
+                                    <ul class="center-align" id="list">
+                                        <li>
+                                            <p class="pFDO">ESTAMOS CONTRATANDO</p>
+                                        </li>
+                                        <li>
+                                            <div class="circle-icon">
+                                                <ul class="lista">
+                                                    <li>
+                                                        <h5 class="h5FDO">VOLUNTÁRIOS</h5>
+                                                    </li>
+                                                    <li>
+                                                        <i class="material-icons white-text" id="circle">arrow_forward</i>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </a>
+                                        <a href="contatos.html">
+                                            <div id="FDO3">
+                                                <ul class="center-align" id="list2">
+                                                    <li>
+                                                        <p class="pFDO2">DÚVIDAS ?</p>
+                                                    </li>
+                                                    <li>
+                                                        <div class="circle-icon2">
+                                                            <ul class="lista2">
+                                                                <li>
+                                                                    <h5 class="h5FDO2">FALE CONOSCO</h5>
+                                                                </li>
+                                                                <li>
+                                                                    <i class="material-icons white-text" id="circle2">arrow_forward</i></li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </a>
+                                    </ul> 
+                                </div>
+                            </div>          
+                        
+    </section>
+    <footer class="footer">
+        <h5 class="h5footer">Contato</h5>
+        <p class="pfooter">Avenida das Flores Douradas, 730
+            <br>Jardim dos Franceses
+            <br>São José dos Campos
+        </p>
+        <ul class="listfooter">
+            <li><button class="buttonf">Ver mapa</button></li>
+            <li><h6 class="numberf">99 99999-9999</h6></li>
+        </ul>
+        <ul class="listicons">
+            <i class="material-icons">email</i>
+            <i class="material-icons">facebook</i>
+            <i class="material-icons">help</i>
+        </ul>
+        <ul class="listwords">
+            <p>Fale Conosco</p>
+            <p>Facebook</p>
+            <p>Dúvidas</p>
+        </ul>
+        
+        <div class="linha"></div>
+        <p><a href="servicos.html" class="links">Serviços</a></p>
+        <p><a href="voluntarios.html" class="links">Voluntários</a></p>
+        <p><a href="contatos.html" class="links">Contato</a></p>
+        
+        <div class="final">
+            <p class="titulo">UNIÃO DAS PATAS</p>
+            <p class="text-final">Organização Não Governamental (ONG) dedicada ao resgate, cuidado e reabilitação de animais abandonados e feridos.</p>
+        </div>
+    </footer>
+    
+      
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    
+</body>
+</html>

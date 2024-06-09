@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="Servicos.css">
+    <title>ONG</title>
+</head>
+<body>
+    <header>
+        <nav class="nav purple lighten-1">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            
+            <div class="nav-wrapper container ">
+                
+                <div class="brand-logo light" style="font-size:20px" id="logo">União das Patas</div>
+                
+                <ul class="right hide-on-med-and-down"> 
+                    <li><a href="index.html" class="link-home">Home</a></li>
+                    <li><a href="servicos.html" class="link-servicos">Serviços</a></li>
+                    <li><a href="contatos.html" class="link-contatos">Contatos</a></li>
+                </ul>
+                
+                
+                <ul id="slide-out" class="sidenav">
+                    <li id="homeH"><a href="index.html" class="link-home"><i class="material-icons left purple-text">home</i>Home</a></li>
+                    <li id="servicosH"><a href="servicos.html" class="link-servicos"><i class="material-icons left purple-text">people</i>Serviços</a></li>
+                    <li id="contatosH"><a href="contatos.html" class="link-contatos"><i class="material-icons left purple-text">phone</i>Contatos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <img src="imagens/imgvoluntarios.png" alt="" class="responsive-img">
+    <h5 class="center-align" id="h5V">SEJA UM VOLUNTÁRIO!</h5>
+    <p class="pV">Estamos em busca de voluntários dedicados para colaborar em diversas áreas da nossa ONG de proteção animal. Precisamos de pessoas comprometidas para ajudar no cuidado dos animais, na organização de eventos e em outras atividades essenciais. Se você ama os animais e quer fazer a diferença, preencha o formulário abaixo e venha fazer parte da nossa equipe!</p>
+    <div class="row" id="formsV">
+        <form action="https://formsubmit.co/geisieleoliveirasouza069@gmail.com" method="POST" id="meuFormulario" autocomplete="off" class="col s12 m8 offset-m2 l10 offset-l1">
+            <input type="text" name="Nome" placeholder="Nome Completo:" class="validate" autocomplete="off" required>
+            
+            <input type="email" name="Email" placeholder="E-mail:" class="validate" autocomplete="off" required>
+            <input list="sexo" name="Sexo" placeholder="Sexo:" required>
+            <datalist id="sexo">
+                <option value="Feminino"></option>
+                <option value="Masculino"></option>
+            </datalist>
+            <input type="text" name="Data de Nascimento" class="validate" placeholder="Data de Nascimento:" id="date" required>
+            <input list="estados" name="Estado" placeholder="Estado:" required>
+            <datalist id="estados">
+                <option value="Acre"></option>
+                <option value="Alagoas"></option>
+                <option value="Amapá"></option>
+                <option value="Amazonas"></option>
+                <option value="Bahia"></option>
+                <option value="Ceará"></option>
+                <option value="Distrito Federal"></option>
+                <option value="Goiás"></option>
+                <option value="Maranhão"></option>
+                <option value="Mato Grosso"></option>
+                <option value="Mato Grosso do Sul"></option>
+                <option value="Minas Gerais"></option>
+                <option value="Pará"></option>
+                <option value="Paraíba"></option>
+                <option value="Pernambuco"></option>
+                <option value="Piauí"></option>
+                <option value="Rio de Janeiro"></option>
+                <option value="Rio Grande do Norte"></option>
+                <option value="Rio Grande do Sul"></option>
+                <option value="Rondônia"></option>
+                <option value="Roraima"></option>
+                <option value="Santa Catarina"></option>
+                <option value="São Paulo"></option>
+                <option value="Sergipe"></option>
+                <option value="Tocantins"></option>
+                
+            </datalist>
+            <input type="text" name="Cidade" placeholder="Cidade:"  id="cidade" class="validate" autocomplete="off" required>
+            <input type="text" name="Bairro" placeholder="Bairro:"  id="bairro" class="validate" autocomplete="off" required>
+            <input type="text" name="Telefone" placeholder="Telefone:"  id="phone" class="validate" autocomplete="off" required>
+
+            <button class="buttonforms" type="submit">ENVIAR</button>
+        
+            <input type="hidden" name="_subject" value="Fale Conosco!">
+            <input type="text" name="_honey" style="display:none">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Materialize-ONG/servicos.html">
+        
+        </form>
+    </div>
+
+
+    <footer class="footer">
+        <h5 class="h5footer">Contato</h5>
+        <p class="pfooter">Avenida das Flores Douradas, 730
+            <br>Jardim dos Franceses
+            <br>São José dos Campos
+        </p>
+        <ul class="listfooter">
+            <li><button class="buttonf">Ver mapa</button></li>
+            <li><h6 class="numberf">99 99999-9999</h6></li>
+        </ul>
+        <ul class="listicons">
+            <i class="material-icons">email</i>
+            <i class="material-icons">facebook</i>
+            <i class="material-icons">help</i>
+        </ul>
+        <ul class="listwords">
+            <p>Fale Conosco</p>
+            <p>Facebook</p>
+            <p>Dúvidas</p>
+        </ul>
+        
+        <div class="linha"></div>
+        <p><a href="servicos.html" class="links">Serviços</a></p>
+        <p><a href="voluntarios.html" class="links">Voluntários</a></p>
+        <p><a href="contatos.html" class="links">Contato</a></p>
+    
+        <div class="final">
+            <p class="titulo">UNIÃO DAS PATAS</p>
+            <p class="text-final">Organização Não Governamental (ONG) dedicada ao resgate, cuidado e reabilitação de animais abandonados e feridos.</p>
+        </div>
+    </footer>
+    
+      
+   
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.js"></script>
+    <script src="scriptforms.js"></script>
+
+    
+</body>
+</html>
